@@ -17,7 +17,6 @@ class Calculadora(tk.Tk):
         self.entrada_texto = tk.StringVar()  # Convertir a una variable str para hacerlo una cadena
         self._creacion_componentes()  # Llamar al método
 
-    # Método para crear componentes
     def _creacion_componentes(self):
         # Frame para el visor
         visor_frame = tk.Frame(self, width=400, height=50, bg='black')
